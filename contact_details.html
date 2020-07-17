@@ -8,55 +8,63 @@
 
 <body>
   <h1>My Contact Details</h1>
-  <p> <strong>Name:</strong> Dr Henry James Crosby </p>
-  <p> <strong>Address:</strong> 3 Wraxall Piece, Green Lane, Failand, BS8 3TW </p>
-  <p> <strong>Phone Number:</strong> 07962035789 </p>
-  <p> <strong>Email Address:</strong> henry@ai-owl.co.uk </p>
-  <a href="index.html"><img src="images/Charlie_3.jpg" alt="Picture of Henry" height=350></a> <!-- you can use you alt to help you with SEO -->
+  <table>
+    <tr>
+      <td> <a href="index.html"><img src="images/Charlie_3.jpg" alt="Picture of Henry" height=230></a> <!-- you can use you alt to help you with SEO -->
+      </td>
+      <td>
+        <p> <strong>Name:</strong> Dr Henry James Crosby </p>
+        <p> <strong>Address:</strong> 3 Wraxall Piece, Green Lane, Failand, BS8 3TW </p>
+        <p> <strong>Phone Number:</strong> 07962035789 </p>
+        <p> <strong>Email Address:</strong> henry@ai-owl.co.uk </p>
+      </td>
+    </tr>
+  </table>
 
   <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-  <h2> A section to test out Form functionality.</h2>
+  <h2> A section to test out "form" functionality.</h2>
   <!--<form class="" action="index.html" method="post"> <! This sends you back to the home screen when you submit -->
-  <form class="" action="mailto:henry@ai-owl.co.uk" method="post" enctype ="text/plain"> <!-- here we send an email in plain text rather than utf8 -->
-  <label for="checking">Are you interested in my content?</label>
-  <input type="checkbox" id = "checking" value = "are you interested in my work?"> <br><br>
-  <label for="colouring">Color of your pins:</label>
-<input type="color"  id = "colouring" value = "Color of your pins"> <br><br>
-<label for="date">Date you first saw my content: </label>
-<input type="date"  id = "date" value = "Date of skillset that you are interested in"> <br><br>
-<label for="datetime">Date and time you first visted this website:</label>
-<input type="datetime-local"   id = "datetine" value = "Date of skillset that you are interested in"> <br><br>
-<label for="emailadd">What is your email address?</label>
-<input type="email" id = "emailadd" value = ""> <br><br>
-<label for="uploading">Would you like to upload something?</label>
-<input type="file" id = "uploading" value = "Any additional files that you would like to sahre with me"> <br><br>
-<label for="monthing">What month did you created your uploads?</label>
-<input type="month" id = "monthing" value = "What month did you create these files?"> <br><br>
-<label for="checking">How old are you?</label>
-<input type="number" id = "colouring" value = "How old are you?"> <br><br>
-<label for="checking">What's the secret password?</label>
-<input type="password" id = "colouring" value = "Whats the sectret password?"> <br><br>
-<label for="checking">Are you interested in my content? Yes </label>
-<input type="radio" id = "colouring" value = "True/False">
-<label for="checking">No </label>
-<input type="radio" id = "colouring" value = "True/False"> <br><br>
-<label for="checking">How long have you been interested in my website?</label>
-<input type="range" id = "colouring" value = "Select length of time?"> <br><br>
-<label for="checking">What exactly is it about my website that interests you?</label>
-<input type="search" id = "colouring" value = "insert your interests about my website"> <br><br>
-<label for="checking">What's your phone number?</label>
-<input type="tel" id = "colouring" value = "insert phone number?"> <br><br>
-<label for="checking">Tell me something interesting?</label>
-<input type="text" id = "colouring" value = "Insert something interesting"> <br><br>
-<label for="checking">What's the time??</label>
-<input type="time" id = "colouring" value = "Insert time"> <br><br>
-<label for="checking">What's your website called?</label>
-<input type="url" id = "colouring" value = "https://www.henry.co.uk"> <br><br>
-<label for="checking">What is the first week that you started following my website?</label>
-<input type="week" id = "colouring" value = "Insert week?"><br><br>
-<label for="tellmemore">Tell me more about yourself?</label><br><br>
-<textarea name = "yourmessage" rows = "20" cols = "180"></textarea><br><br><br><br>
-<input type="submit" id = "tellmemore"><br><br><br><br>
+  <form class="" action="mailto:henry@ai-owl.co.uk" method="post" enctype="text/plain">
+    <!-- here we send an email in plain text rather than utf8 -->
+    <label for="checking">Are you interested in my content?</label>
+    <input type="checkbox" id="checking" value="are you interested in my work?"> <br><br>
+    <label for="colouring">Color of your pins:</label>
+    <input type="color" id="colouring" value="Color of your pins"> <br><br>
+    <label for="date">Date you first saw my content: </label>
+    <input type="date" id="date" value="Date of skillset that you are interested in"> <br><br>
+    <label for="datetime">Date and time you first visted this website:</label>
+    <input type="datetime-local" id="datetine" value="Date of skillset that you are interested in"> <br><br>
+    <label for="emailadd">What is your email address?</label>
+    <input type="email" id="emailadd" value=""> <br><br>
+    <label for="uploading">Would you like to upload something?</label>
+    <input type="file" id="uploading" value="Any additional files that you would like to sahre with me"> <br><br>
+    <label for="monthing">What month did you created your uploads?</label>
+    <input type="month" id="monthing" value="What month did you create these files?"> <br><br>
+    <label for="checking">How old are you?</label>
+    <input type="number" id="colouring" value="How old are you?"> <br><br>
+    <label for="checking">What's the secret password?</label>
+    <input type="password" id="colouring" value="Whats the sectret password?"> <br><br>
+    <label for="checking">Are you interested in my content? Yes </label>
+    <input type="radio" id="colouring" value="True/False">
+    <label for="checking">No </label>
+    <input type="radio" id="colouring" value="True/False"> <br><br>
+    <label for="checking">How long have you been interested in my website?</label>
+    <input type="range" id="colouring" value="Select length of time?"> <br><br>
+    <label for="checking">What exactly is it about my website that interests you?</label>
+    <input type="search" id="colouring" value="insert your interests about my website"> <br><br>
+    <label for="checking">What's your phone number?</label>
+    <input type="tel" id="colouring" value="insert phone number?"> <br><br>
+    <label for="checking">Tell me something interesting?</label>
+    <input type="text" id="colouring" value="Insert something interesting"> <br><br>
+    <label for="checking">What's the time??</label>
+    <input type="time" id="colouring" value="Insert time"> <br><br>
+    <label for="checking">What's your website called?</label>
+    <input type="url" id="colouring" value="https://www.henry.co.uk"> <br><br>
+    <label for="checking">What is the first week that you started following my website?</label>
+    <input type="week" id="colouring" value="Insert week?"><br><br>
+    <label for="tellmemore">Tell me more about yourself?</label><br><br>
+    <textarea name="yourmessage" rows="20" cols="180"></textarea><br><br><br><br>
+    <input type="submit" id="tellmemore"><br><br><br><br>
   </form>
   <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
